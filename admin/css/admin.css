@@ -1,0 +1,167 @@
+/* UX Sites Optimiser Admin Styles */
+
+.sso-presets {
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.sso-presets h3 {
+    margin-top: 0;
+    color: #23282d;
+}
+
+.sso-presets select {
+    min-width: 300px;
+    padding: 8px;
+}
+
+.sso-presets .description {
+    margin-top: 10px;
+    font-style: italic;
+    color: #666;
+}
+
+.sso-setting {
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.sso-setting h4 {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sso-impact {
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.impact-high {
+    background: #dc3545;
+    color: white;
+}
+
+.impact-medium {
+    background: #fd7e14;
+    color: white;
+}
+
+.impact-low {
+    background: #198754;
+    color: white;
+}
+
+.impact-safe {
+    background: #6c757d;
+    color: white;
+}
+
+.sso-description {
+    color: #666;
+    font-style: italic;
+    margin: 8px 0;
+}
+
+.sso-help-text {
+    background: #f0f8ff;
+    border-left: 4px solid #0073aa;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 0 4px 4px 0;
+}
+
+.sso-help-text h4 {
+    margin-top: 0;
+    color: #0073aa;
+}
+
+.sso-help-text ul,
+.sso-help-text ol {
+    margin-left: 20px;
+}
+
+.sso-help-text p {
+    margin-bottom: 10px;
+}
+
+.sso-help-text em {
+    color: #666;
+}
+
+/* Tab content styling */
+.tab-content {
+    padding-top: 20px;
+}
+
+/* Form styling */
+.sso-setting label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.sso-setting input[type="checkbox"] {
+    margin: 0;
+}
+
+.sso-setting textarea {
+    width: 100%;
+    font-family: Consolas, Monaco, monospace;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+/* Preset selector styling */
+.sso-presets form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.sso-presets .button {
+    height: 40px;
+    padding: 0 16px;
+}
+
+/* Status indicators */
+.sso-status {
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+.sso-status ul {
+    margin: 10px 0 0 20px;
+}
+
+.sso-status li {
+    margin-bottom: 5px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .sso-presets form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .sso-presets select {
+        min-width: auto;
+        width: 100%;
+    }
+}
