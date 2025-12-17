@@ -12,8 +12,8 @@ if (!defined('ABSPATH') && !isset($_POST['action'])) {
 
 // Configuration - Update these values
 $plugin_slug = 'ux-sites-optimiser';
-$current_version = '1.0.1'; // Update this when you release new versions
-$download_url = 'https://yoursite.com/releases/ux-sites-optimiser-v1.0.1.zip';
+$current_version = '1.0.2'; // Update this when you release new versions
+$download_url = 'https://yoursite.com/releases/ux-sites-optimiser-v1.0.2.zip';
 $requires_license = false; // Set to true if you want to require license keys
 
 // Valid license keys (if using licensing)
@@ -137,6 +137,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])) {
  */
 function get_changelog($version) {
     $changelogs = [
+        '1.0.2' => '
+            <h4>Version 1.0.2</h4>
+            <ul>
+                <li>Bumped version to test update functionality</li>
+                <li>Minor fixes and documentation updates</li>
+                <li>Added CHANGELOG.md and updated update metadata</li>
+            </ul>
+        ',
         '1.0.1' => '
             <h4>Version 1.0.1</h4>
             <ul>

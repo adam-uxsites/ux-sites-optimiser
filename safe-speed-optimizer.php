@@ -3,7 +3,7 @@
  * Plugin Name: UX Sites Optimiser
  * Plugin URI: https://your-domain.com
  * Description: Safe, toggleable performance optimizations for WordPress websites. Frontend-focused with modular class-based structure.
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: Your Name
  * License: GPL v2 or later
  * Text Domain: ux-sites-optimiser
@@ -15,7 +15,7 @@ if (!defined('ABSPATH')) {
 }
 
 // Define plugin constants
-define('SSO_PLUGIN_VERSION', '1.0.1');
+define('SSO_PLUGIN_VERSION', '1.0.2');
 define('SSO_PLUGIN_PATH', plugin_dir_path(__FILE__));
 define('SSO_PLUGIN_URL', plugin_dir_url(__FILE__));
 define('SSO_PLUGIN_BASENAME', plugin_basename(__FILE__));
